@@ -3,6 +3,7 @@
 
 1. Update WIFI SSID and pwd       
 2. Update MyQ username and password
+3. Update the AccountId
 
 
 ##Reference MyQ Endpoint
