@@ -81,7 +81,7 @@ void CheckDoorStatus()
   
   if(loginRes && token != "null" )
   {
-     String deviceStr = ExecuteMyQApi(client,"GET","/api/v5.1/Accounts/<DeviceId>/Devices",token,"", 1024);  
+     String deviceStr = ExecuteMyQApi(client,"GET","/api/v5.1/Accounts/<AccountId>/Devices",token,"", 1024);  
 
      DynamicJsonDocument doc1(1024);
      deserializeJson(doc1, deviceStr);
